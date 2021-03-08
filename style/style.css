@@ -1,0 +1,13 @@
+/* Style for movemyphonedata.com */
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;    /* AMOLED night mode or bust */
+    color: #138b38;
+}
+
+h1 {
+    margin: auto;
+    font-weight: bold;
+    font-size: 300%;
+}

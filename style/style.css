@@ -38,7 +38,7 @@ header {
 
 footer {
     font-family: 'Source Code Pro', monospace;
-    position: absolute;
+    position: fixed;
     font-size: 150%;
     bottom: 0;
     margin: 0;

@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: black;    /* AMOLED night mode or bust */
+    background-color: #202020;
     color: #138b38;
 }
 
@@ -11,4 +11,5 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-size: 300%;
+    background-color: #000040;
 }

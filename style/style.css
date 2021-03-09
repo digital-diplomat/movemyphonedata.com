@@ -14,13 +14,26 @@ body {
     margin: 0;
 }
 
+/* Top Bar and Intro */
+
+header {
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    color: var(--my-green);
+    background-color: var(--dark-blue);
+}
+
 .intro {
     font-size: 110%;
 }
 
-.postscript {
-    font-size: 75%;
-}
+/* Image Layout and Delimiters */
 
 hr {
     border-color: #404040;
@@ -41,21 +54,15 @@ img {
     width: 100%;
 }
 
-p, ul, h3 {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-ul ul {
-    margin-left: auto;
-}
-
-li {
-    line-height: 150%;
-}
+/* Main Body Styling */
 
 em {
     color: white;
+}
+
+a {
+    color: var(--my-green);
+    text-decoration: none;
 }
 
 h1 {
@@ -77,18 +84,20 @@ h2 {
     font-size: 150%;
 }
 
-header {
-    font-family: 'Source Code Pro', monospace;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    margin-bottom: 32px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 300%;
-    color: var(--my-green);
-    background-color: var(--dark-blue);
+p, ul, h3 {
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+ul ul {
+    margin-left: auto;
+}
+
+li {
+    line-height: 150%;
+}
+
+/* Bottom of Page */
 
 footer {
     font-family: 'Source Code Pro', monospace;
@@ -101,7 +110,6 @@ footer {
     text-align: right;
 }
 
-a {
-    color: var(--my-green);
-    text-decoration: none;
+.postscript {
+    font-size: 75%;
 }

@@ -14,8 +14,36 @@ body {
     margin: 0;
 }
 
-p, ul {
+.intro {
+    font-size: 110%;
+}
+
+.postscript {
+    font-size: 75%;
+}
+
+hr {
+    border-color: #404040;
+}
+
+.row {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.column {
+    flex: 33.3%;
+    padding: 4px;
+}
+
+img {
+    width: 100%;
+}
+
+p, ul, h3 {
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 ul ul {
@@ -40,11 +68,21 @@ h1 {
     font-size: 200%;
 }
 
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    background-color: var(--dark-teal);
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 150%;
+}
+
 header {
     font-family: 'Source Code Pro', monospace;
     position: relative;
     width: 100%;
     margin: 0;
+    margin-bottom: 32px;
     text-align: center;
     font-weight: bold;
     font-size: 300%;
@@ -58,7 +96,6 @@ footer {
     font-size: 150%;
     bottom: 0;
     margin: 0;
-    width: 100%;
     background-color: var(--dark-blue);
     color: var(--my-green);
     text-align: right;

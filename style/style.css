@@ -5,9 +5,11 @@ body {
     background-color: #202020;
     color: #bbb;
     padding: 0;
+    margin:0;
 }
 
 h1 {
+    position: relative;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -15,4 +17,19 @@ h1 {
     font-size: 300%;
     color: #138b38;
     background-color: #000040;
+}
+
+footer {
+    position: absolute;
+    font-size: 150%;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #000040;
+    text-align: right;
+}
+
+a {
+    color: #008080;
+    text-decoration: none;
 }

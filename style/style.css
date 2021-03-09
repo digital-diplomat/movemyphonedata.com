@@ -1,7 +1,13 @@
 /* Style for movemyphonedata.com */
 
+html {
+    --dark-blue: #000040;
+    --my-green: #138b38;
+    --dark-teal: #008080;
+}
+
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', "Helvetica Neue", sans-serif;
     background-color: #202020;
     color: #bbb;
     padding: 0;
@@ -9,27 +15,30 @@ body {
 }
 
 h1 {
+    font-family: 'Source Code Pro', monospace;
     position: relative;
     width: 100%;
     margin: 0;
     text-align: center;
     font-weight: bold;
     font-size: 300%;
-    color: #138b38;
-    background-color: #000040;
+    color: var(--my-green);
+    background-color: var(--dark-blue);
 }
 
 footer {
+    font-family: 'Source Code Pro', monospace;
     position: absolute;
     font-size: 150%;
     bottom: 0;
     margin: 0;
     width: 100%;
-    background-color: #000040;
+    background-color: var(--dark-blue);
+    color: var(--my-green);
     text-align: right;
 }
 
 a {
-    color: #008080;
+    color: var(--dark-teal);
     text-decoration: none;
 }

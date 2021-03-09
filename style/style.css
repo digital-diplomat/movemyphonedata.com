@@ -3,13 +3,16 @@
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: #202020;
-    color: #138b38;
+    color: #bbb;
+    padding: 0;
 }
 
 h1 {
-    margin: auto;
+    width: 100%;
+    margin: 0;
     text-align: center;
     font-weight: bold;
     font-size: 300%;
+    color: #138b38;
     background-color: #000040;
 }

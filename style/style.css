@@ -41,12 +41,12 @@ hr {
 
 .row {
     display: flex;
-    width: 50%;
+    width: 75%;
     margin: auto;
 }
 
 .column {
-    flex: 33.3%;
+    flex: auto;
     padding: 4px;
 }
 

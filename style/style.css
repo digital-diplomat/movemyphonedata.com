@@ -79,7 +79,9 @@ h2 {
     font-family: 'Source Code Pro', monospace;
     background-color: var(--dark-teal);
     position: relative;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 48px;
     font-size: 150%;
 }
 
@@ -94,6 +96,12 @@ ul ul {
 
 li {
     line-height: 150%;
+}
+
+.tombstone {
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    color: var(--my-green);
 }
 
 /* Bottom of Page */

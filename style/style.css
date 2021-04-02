@@ -29,8 +29,38 @@ header {
     background-color: var(--dark-blue);
 }
 
+.button {
+    text-align: center;
+    border-radius: 5px 5px;
+    background-color: #FFFFFF80;
+    color: black;
+}
+
+#to-guide {
+    text-align: center;
+    margin-left: 32px;
+}
+
 .intro {
     font-size: 110%;
+    text-align: center;
+}
+
+select {
+    background-color: #138b3820;
+    color: white;
+    font-weight: inherit;
+    font-size: inherit;
+    border: #00000000;
+    border-radius: 5px 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.selector {
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
 }
 
 /* Image Layout and Delimiters */
@@ -41,6 +71,7 @@ hr {
 
 .row {
     display: flex;
+    justify-content: center;
     width: 75%;
     margin: auto;
 }
